@@ -1,0 +1,1025 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Inter:wght@400;500&family=Ubuntu:wght@700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #040820;
+}
+
+header {
+    background: linear-gradient(180deg, #040820 1%, rgba(134, 17, 177, 0.829)200.8%);
+    height: 688px;
+}
+
+#all-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo-header {
+    margin-right: 410px;
+}
+
+#nav-header{  
+    margin-right: 50px;
+}
+
+#nav-header ul{  
+    display: flex;
+    gap: 40px;
+}
+
+#nav-header ul li {
+    list-style: none;
+}
+
+#nav-header a {
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+#button-header-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px 34px;
+    gap: 10px;
+    width: 156px;
+    height: 42px;
+    background: #9907CC;
+    border-radius: 38px;
+    border: none;
+}
+
+#button-header-1 a {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 2px;
+}
+
+#section-one {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+#text-section-one {
+    margin-top: 100px;
+}
+
+#text-section-one h2 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #FFFFFF;
+    max-width: 500px;
+}
+
+#text-section-one p{
+    margin-top: 20px;
+    max-width: 350px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+#text-section-one button {
+    margin-top: 20px;
+
+    display: flex;
+    padding: 10px 34px;
+    width: 139px;
+    height: 42px;
+    background: #9907CC;
+    border-radius: 38px;
+    border: none;
+}
+
+#text-section-one button a{
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#section-soluções {
+    height: 462.65px;
+}
+
+#intro-soluções p {
+    margin-top: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #9907CC;
+}
+
+#intro-soluções h5 {
+    margin-top: 5px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#soluçõesAll {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+#soluçãoCard {
+    width: 92.2px;
+    height: 89.44px;
+    background: rgba(153, 7, 204, 0.1);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+}
+
+#cards h4 {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+
+    margin-top: 15px;
+}
+
+#cards p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+    margin-top: 6px;
+}
+
+.soluçãoButton {
+    margin-top: 20px;
+    width: 130.7px;
+    height: 35.38px;
+    background: #9907CC;
+    border-radius: 24px;
+    border: none;
+}
+
+.soluçãoButton a {
+    text-decoration: none;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+#sobre {
+    height: 434px;
+    background: linear-gradient(180deg, #080d25 0.2%, rgba(134, 17, 177, 0.829) 100.8%);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 30px;
+    gap: 200px;
+}
+
+#sobreTexto h2 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;
+    width: 250px;
+}
+
+#sobreTexto p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 29px;
+    color: #FFFFFF;
+    width: 410px;
+
+}
+
+.sobrebutton {
+    width: 140px;
+    height: 39px;
+    background: #FFFFFF;
+    border-radius: 24px;
+    border: none;
+}
+
+.sobrebutton a{
+    text-decoration: none;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #670894;
+}
+
+#intro-depoi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin-top: 50px;
+}
+
+#intro-depoi p {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #9907CC;
+}
+
+#intro-depoi h5 {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+
+#depoiAllCards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 100px;
+    gap: 200px;
+
+}
+
+.depoiCards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.text-depoi {
+    margin-top: 10px;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    width: 460px;
+}
+
+.perfil-cards {
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.info-depoi {   
+    margin-left: 15px;
+
+}
+
+.info-depoi h5 {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    color: #9907CC;
+}
+
+.info-depoi p {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+footer {
+    background: linear-gradient(180deg, #080d25 0.2%, rgba(134, 17, 177, 0.829) 100.8%);
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+#footerDiv {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    gap: 400px;
+}
+
+#footerNav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#navfooternav {
+    margin-top: 10px;
+    display: flex;
+    gap: 15px;
+}
+
+#footerLocal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#footerLocalDois {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footerLocalDois h3{
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+#footerLocalTres ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+#footerLocalTres a{
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.lgpdDois {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+
+}
+
+.lgpdTres ul {
+    color: white;
+    margin-top: 15px;
+}
+
+.lgpdTres a {
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+#assinaturaFooter {
+    border-top: 1px dashed rgba(255, 255, 255, 0.3);
+    margin-top: 40px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 1350px;
+    gap: 1200px;
+}
+
+#copy {
+    margin-top: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 13px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+#logoend {
+    margin-top: 20px;
+}
+
+@media screen and (max-width:768px) {
+    header {
+        background: linear-gradient(180deg, #040820 1%, rgba(134, 17, 177, 0.829)200.8%);
+        height: 688px;
+        width: 100%;
+    }
+    
+    #all-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #logo-header {
+        margin: 10px 0 auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #nav-header{  
+        margin-right: 0px;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #nav-header ul{  
+        display: flex;
+        gap: 30px;
+    }
+    
+    #nav-header ul li {
+        list-style: none;
+    }
+    
+    #nav-header a {
+        text-decoration: none;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        color: #FFFFFF;
+    }
+    
+    #button-header-1 {
+        display: none;
+    }
+    
+    #section-one {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    #text-section-one {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 0px;
+    }
+    
+    #text-section-one h2 {
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 33px;
+        line-height: 40px;
+        color: #FFFFFF;
+        max-width: 500px;
+    }
+    
+    #text-section-one p{
+        margin-top: 20px;
+        max-width: 350px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 27px;
+        color: #FFFFFF;
+    }
+    
+    #text-section-one button {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 34px;
+        width: 130px;
+        height: 35px;
+        background: #9907CC;
+        border-radius: 38px;
+        border: none;
+    }
+    
+    #text-section-one button a{
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 22px;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    #img-section-one img {
+        display: flex;
+        margin-top: 30px;
+        width: 100vw;
+    }
+    
+    #section-soluções {
+        height: 462.65px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    #intro-soluções {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #intro-soluções p {
+        margin-top: 50px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #9907CC;
+    }
+    
+    #intro-soluções h5 {
+        margin-top: 5px;
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 40px;
+        text-align: center;
+        color: #FFFFFF;
+        width: 300px;
+    }
+    
+    #soluçõesAll {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+    
+    .aspas img{
+        padding-left: 10px;
+    }
+    
+    #soluçãoCard {
+        width: 92.2px;
+        height: 89.44px;
+        background: rgba(153, 7, 204, 0.1);
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    
+    #cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 350px;
+    }
+    
+    #cards h4 {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 27px;
+        text-align: center;
+        color: #FFFFFF;
+    
+        margin-top: 15px;
+    }
+    
+    #cards p {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 24px;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.9);
+        margin-top: 6px;
+    }
+    
+    .soluçãoButton {
+        margin-top: 20px;
+        width: 130.7px;
+        height: 35.38px;
+        background: #9907CC;
+        border-radius: 24px;
+        border: none;
+    }
+    
+    .soluçãoButton a {
+        text-decoration: none;
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 16px;
+        line-height: 22px;
+        color: #FFFFFF;
+    }
+    
+    #sobre {
+        background: linear-gradient(180deg, #080d25 0.2%, rgba(134, 17, 177, 0.829) 100.8%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        gap: 20px;
+    }
+
+    #sobreTexto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10px;
+    }
+    
+    #sobreTexto h2 {
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 700px;
+        font-size: 30px;
+        line-height: 35px;
+        color: #FFFFFF;
+        width: 50vw;
+    }
+    
+    #sobreTexto p {
+        margin-top: 5px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        color: #FFFFFF;
+        width: 100vw;
+        text-align: center;
+    }
+
+    #sobreImage {
+        margin: 0;
+    }
+
+    #sobreImage img {
+        width: 300px;
+    }
+    
+    .sobrebutton {
+        width: 140px;
+        height: 39px;
+        background: #FFFFFF;
+        border-radius: 24px;
+        border: none;
+        margin-top: 10px;
+    }
+    
+    .sobrebutton a{
+        text-decoration: none;
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #670894;
+    }
+    
+    #intro-depoi {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    
+    #intro-depoi p {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #9907CC;
+    }
+    
+    #intro-depoi h5 {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 35px;
+        color: #FFFFFF;
+    }
+    
+    #depoimentos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #depoiAllCards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+        gap: 50px;
+    }
+    
+    .depoiCards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+    
+    .text-depoi {
+        margin-top: 10px;
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: #FFFFFF;
+        width: 90vw;
+        text-align: center;
+    }
+    
+    .perfil-cards {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+    
+    .info-depoi {   
+        margin-left: 15px;
+    }
+    
+    .info-depoi h5 {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 24px;
+        color: #9907CC;
+    }
+    
+    .info-depoi p {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        color: rgba(255, 255, 255, 0.8);
+    }
+    
+    footer {
+        background: linear-gradient(180deg, #080d25 0.2%, rgba(134, 17, 177, 0.829) 100.8%);
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 60px;
+    }
+    
+    #footerDiv {
+        display: flex;
+        flex-direction:row;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        padding-bottom:20px;
+    }
+    
+    #footer-img-nav img {
+        width: 100px;
+    }
+
+    #footerNav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #navfooternav {
+        margin-top: 2px;
+        display: flex;
+        gap: 5px;
+    }
+
+    #navfooternav a img {
+        width: 25px;
+    }
+    
+    #footerLocal {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #footerLocalDois {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #footerLocalDois h3{
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
+    
+    #footerLocalTres ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0px;
+    }
+    
+    #footerLocalTres a{
+        text-decoration: none;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 9px;
+        line-height: 10px;
+        color: #FFFFFF;
+    }
+
+    .lgpdDois {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 20px;
+        color: #FFFFFF;
+        padding-top: 10px;
+    }
+    
+    .lgpdTres ul {
+        color: white;
+        margin-top: 1px;
+        list-style: none;
+        text-align: center;
+    }
+    
+    .lgpdTres a {
+        text-decoration: none;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 15px;
+        color: #FFFFFF;
+    }
+    
+    #assinaturaFooter {
+        border-top: 1px dashed rgba(255, 255, 255, 0.3);
+        width: 100vw;
+        margin-top: 0px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 100px;
+    }
+    
+    #copy {
+        margin-top: 20px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 100;
+        font-size: 13px;
+        line-height: 22px;
+        color: #FFFFFF;
+    }
+
+    #logoend {
+        margin-top: 20px;
+    }
+}
