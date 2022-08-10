@@ -605,11 +605,16 @@ footer {
         color: #FFFFFF;
         text-decoration: none;
     }
+    
+    #img-section-one {
+        display: flex;
+        justify-content: center;
+    }
 
     #img-section-one img {
         display: flex;
         margin-top: 30px;
-        width: 100vw;
+        width: 25em;
     }
     
     #section-soluções {
@@ -750,7 +755,8 @@ footer {
         font-size: 30px;
         line-height: 35px;
         color: #FFFFFF;
-        width: 50vw;
+        width: 55vw;
+        text-align: center;
     }
     
     #sobreTexto p {
